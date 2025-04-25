@@ -18,7 +18,7 @@ Ve directo al corazón del código Pokédex:
 🔗 [https://github.com/rcuello/ac4dem1a/tree/master/sistemas-distribuidos/poke-dex-lab](https://github.com/rcuello/ac4dem1a/tree/master/sistemas-distribuidos/poke-dex-lab)
 
 - Haz clic en el botón **Fork** (esquina superior derecha) 👆  
-- Nombra tu copia como prefieras, por ejemplo: `albertacho`  
+- Nombra tu copia como prefieras, por ejemplo: `Janky11`  
 - Presiona **Create fork** 🎉  
 
 ---
