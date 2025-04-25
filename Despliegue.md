@@ -59,8 +59,8 @@ Copiar
 Editar
 app_location: "./sistemas-distribuidos/poke-dex-lab/source/pokedex-angular"
 ✔️ Guarda tus cambios con un commit
-
-### ⚡ Paso 3: Ejecuta y Revisa el Despliegue
+---
+###⚡ Paso 3: Ejecuta y Revisa el Despliegue
 En la pestaña Actions del repositorio, monitorea que el flujo de trabajo se ejecute correctamente.
 
 Espera hasta que aparezca como completado.
