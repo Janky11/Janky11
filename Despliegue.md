@@ -43,7 +43,9 @@ Accede al código fuente original:
 1. Dirígete a tu fork en: [https://github.com/Janky11/Janky11](https://github.com/Janky11/Janky11)
 2. Accede a: `.github/workflows/`
 3. Localiza el archivo `.yml` de despliegue (puede tener un nombre similar a `azure-static-web-apps-*.yml`)
-4. Modifica esta línea:
+4. Modifica esta línea: app_location: "./sistemas-distribuidos"
+5. app_location: "./sistemas-distribuidos/poke-dex-lab/source/pokedex-angular"
+
 
 ## 🚦 Paso 3: Verifica la Acción de Despliegue
 
