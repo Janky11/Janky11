@@ -91,3 +91,30 @@ Y pega este contenido:
     "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"]
   }
 }
+
+---
+
+## 🎉 ¡Listo! Tu Pokédex Está en la Nube
+
+Tu Pokédex ya está activa en la web, lista para explorar, lucir increíble y capturar la atención de todos. 🧠  
+¡Felicitaciones por completar el despliegue con estilo y seguridad!
+
+---
+
+## 🌟 Creador del Proyecto 🙌
+
+🧙‍♂️ **Jean Carlos Orozco Imotila**  
+_"Estudiante Apasionado de Ingeniería de Sistemas"_  
+
+🔗 [GitHub](https://github.com/Janky11/Janky11) | [LinkedIn](#) | [Portafolio](#)
+
+🏆 **Habilidades Especiales:**
+- 🛠️ **Auxiliar Multifuncional**: Apoyo en Sistemas, IT y TIC.
+- 💻 **Desarrollo de Software**: Full Stack Developer (front-end + back-end).
+- 🔐 **Ciberseguridad**: Protección de datos y redes.
+- 🖥️ **Mantenimiento de Computadores**: Diagnóstico y reparación de equipos.
+- 🎨 **Herramientas Digitales**: Excel, Photoshop.
+- ⚕️ **SG-SST (50 Horas)**: Formación en seguridad laboral.
+- 📢 **Marketing Digital**: Estrategias en SEO y redes sociales.
+
+📅 **Fecha de Creación del Proyecto**: 13/04/2025
