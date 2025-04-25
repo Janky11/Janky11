@@ -45,10 +45,6 @@ Accede al código fuente original:
 3. Localiza el archivo `.yml` de despliegue (puede tener un nombre similar a `azure-static-web-apps-*.yml`)
 4. Modifica esta línea:
 
-```yml
-app_location: "./sistemas-distribuidos"
-
----
 ## 🚦 Paso 3: Verifica la Acción de Despliegue
 
 Haz clic en la pestaña **Actions** en la parte superior del repositorio.  
