@@ -60,28 +60,33 @@ Editar
 app_location: "./sistemas-distribuidos/poke-dex-lab/source/pokedex-angular"
 ✔️ Guarda tus cambios con un commit
 ---
-###⚡ Paso 3: Ejecuta y Revisa el Despliegue
-En la pestaña Actions del repositorio, monitorea que el flujo de trabajo se ejecute correctamente.
+## 🚦 Paso 3: Verifica la Acción de Despliegue
 
-Espera hasta que aparezca como completado.
+Haz clic en la pestaña **Actions** en la parte superior del repositorio.  
+Busca el flujo de trabajo que se ejecutó automáticamente.  
+Verifica que termine con estado **"completed"** ✅
 
-🔍 Paso 4: Explora tu Pokédex en Azure
-Accede al portal de Azure: https://portal.azure.com
+---
 
-Selecciona tu Static Web App
+## 🌐 Paso 4: Accede a tu Web App en Azure
 
-Entra al recurso para obtener el enlace público de tu aplicación
+Abre [portal.azure.com](https://portal.azure.com) e inicia sesión con tu cuenta institucional o de estudiante.  
+Dirígete al servicio **Static Web Apps** y selecciona el nombre de tu app.
 
-🔐 Paso 5: Agrega Configuración de Seguridad
-Desde tu repositorio, ve a: sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/
+Haz clic en **Ir al recurso**, y luego verás un enlace URL con tu Pokédex funcionando online. ¡Dale clic y comprueba tu despliegue! 🔎
 
-Crea un nuevo archivo: staticwebapp.config.json
+---
 
-Inserta este contenido:
+## 🧩 Paso 5: Configura Seguridad y Navegación
 
-json
-Copiar
-Editar
+Desde tu repositorio: https://github.com/Janky11/Janky11  
+Navega a: `sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/`
+
+Haz clic en **Add file > Create new file**  
+Nómbralo como: `staticwebapp.config.json`  
+Y pega este contenido:
+
+```json
 {
   "globalHeaders": {
     "Content-Security-Policy": "default-src 'self'; img-src 'self' https://raw.githubusercontent.com https://pokeapi.co https://assets.pokemon.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://beta.pokeapi.co",
@@ -93,7 +98,7 @@ Editar
     "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"]
   }
 }
-🔁 Espera que se ejecute de nuevo el flujo en Actions
+
 
 🖼️ Paso 6: Visualiza tus Pokémon con Estilo
 Dirígete a:
