@@ -89,9 +89,8 @@ Y pega este contenido:
   "navigationFallback": {
     "rewrite": "/index.html",
     "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"]
-  
-
-
+  }
+}
 
 ## 🎉 ¡Listo! Tu Pokédex Está en la Nube
 
