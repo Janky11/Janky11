@@ -93,7 +93,7 @@ Y pega este contenido:
   },
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"]
+    "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"] ```json
   }
 }
 
