@@ -1,70 +1,87 @@
-# 🧩 ¡Despliega tu Pokédex en Azure con Estilo! ⚡  
-**🔗 Link de la web en la nube:** [https://witty-island-0d4269f10.6.azurestaticapps.net/](https://witty-island-0d4269f10.6.azurestaticapps.net/)  
-✍️ **Autor:** Jean Carlos Orozco Imotila  
-📂 **Repositorio:** [https://github.com/Janky11/Janky11](https://github.com/Janky11/Janky11)  
-📚 **Asignatura:** Sistemas Distribuidos  
-🎓 **Semestre:** 9no semestre - Ingeniería de Sistemas  
-📅 **Fecha:** 13/04/2025  
+<!-- Encabezado visual -->
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzh2M2V0N2s5aWJmbDB0OTJpNXY3MWdzZG1jdGk5dThudm5sMGMwNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oEjI6SIIHBdRxXI40/giphy.gif" width="280px">
+</p>
+
+<h1 align="center">🎮 PokeDeploy: Tu Pokédex en la Nube con Azure 🎮</h1>
+
+<p align="center">
+  Una guía rápida y divertida para publicar tu app Pokémon usando servicios de Microsoft Azure 🌥️
+</p>
 
 ---
 
-## ☁️ ¡Prepárate para llevar tu Pokédex a la nube de una manera súper sencilla y visual!  
+<p align="center">
+  <img src="https://img.shields.io/badge/AZURE--STATIC--WEB--APP-DESPLEGADO-blueviolet?style=for-the-badge&logo=azuredevops">
+  <img src="https://img.shields.io/badge/SEMESTRE-9°--SISTEMAS-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/STATUS-%F0%9F%92%AA%20ACTIVO-green?style=for-the-badge">
+</p>
 
 ---
 
-### 1️⃣ 🍽️ ¡A Bifurcar el Código! (Forking Time!)  
+### 📍 Información General
 
-Ve directo al corazón del código Pokédex:  
-🔗 [https://github.com/rcuello/ac4dem1a/tree/master/sistemas-distribuidos/poke-dex-lab](https://github.com/rcuello/ac4dem1a/tree/master/sistemas-distribuidos/poke-dex-lab)
-
-- Haz clic en el botón **Fork** (esquina superior derecha) 👆  
-- Nombra tu copia como prefieras, por ejemplo: `Janky11`  
-- Presiona **Create fork** 🎉  
+- 🌐 **Web App Activa:** [https://witty-island-0d4269f10.6.azurestaticapps.net](https://witty-island-0d4269f10.6.azurestaticapps.net)
+- 📘 **Repositorio de Trabajo:** [https://github.com/Janky11/Janky11](https://github.com/Janky11/Janky11)
+- 🧠 **Materia:** Sistemas Distribuidos
+- 🧑‍💻 **Autor:** Jean Carlos Orozco Imotila  
+- 🎓 **Semestre:** Noveno (Ingeniería de Sistemas)  
+- 🗓️ **Fecha de Publicación:** 13/04/2025  
 
 ---
 
-### 2️⃣ 📁 ¡Navegando a la Ubicación Correcta! (App Location Adventure!)  
+## 🧭 Guía de Despliegue Paso a Paso
 
-🏡 Dirígete a tu repo forkeado:  
-[https://github.com/Janky11/Janky11](https://github.com/Janky11/Janky11)
+### 🔁 Paso 1: Clona el Proyecto Base
 
-- Entra a la carpeta: `.github/workflows/`  
-- Abre el archivo: `azure-static-web-apps-<algo>.yml`  
-- Da clic en el ícono del lápiz ✏️ para editar  
-- Busca esta línea (aprox. línea 31):
+Accede al código fuente original:  
+📎 [Repositorio de Referencia](https://github.com/rcuello/ac4dem1a/tree/master/sistemas-distribuidos/poke-dex-lab)
+
+- Haz clic en el botón **Fork**
+- Crea tu propia versión del repo
+- Asígnale un nombre representativo (ej: `Janky11`)
+
+---
+
+### ⚙️ Paso 2: Ajustes del Proyecto
+
+1. Dirígete a tu fork en: [https://github.com/Janky11/Janky11](https://github.com/Janky11/Janky11)
+2. Accede a: `.github/workflows/`
+3. Localiza el archivo `.yml` de despliegue (puede tener un nombre similar a `azure-static-web-apps-*.yml`)
+4. Modifica esta línea:
 
 ```yml
 app_location: "./sistemas-distribuidos"
-🔁 ¡Cámbiala por esta ruta mágica! ✨
+🔁 Sustitúyela por:
+
+yml
+Copiar
+Editar
 app_location: "./sistemas-distribuidos/poke-dex-lab/source/pokedex-angular"
+✔️ Guarda tus cambios con un commit
 
-##3️⃣ 🎬 ¡Luces, Cámara, Actions! (Checking the Magic!)
-Haz clic en la pestaña Actions en tu repositorio
+⚡ Paso 3: Ejecuta y Revisa el Despliegue
+En la pestaña Actions del repositorio, monitorea que el flujo de trabajo se ejecute correctamente.
 
-Verifica que el workflow se esté ejecutando con éxito 🚦
+Espera hasta que aparezca como completado.
 
-Espera hasta que esté completado 🟢
+🔍 Paso 4: Explora tu Pokédex en Azure
+Accede al portal de Azure: https://portal.azure.com
 
-###4️⃣ 🌐 ¡Despegue a la Nube de Azure! (Azure Deployment!)
-Ve al portal de Azure: https://portal.azure.com
+Selecciona tu Static Web App
 
-Ingresa a App Services
+Entra al recurso para obtener el enlace público de tu aplicación
 
-Haz clic sobre tu Static Web App
+🔐 Paso 5: Agrega Configuración de Seguridad
+Desde tu repositorio, ve a: sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/
 
-Da clic en Ir al recurso
+Crea un nuevo archivo: staticwebapp.config.json
 
-🌍 ¡Abre el enlace en la sección URL y admira tu Pokédex en acción!
+Inserta este contenido:
 
-###5️⃣ 🛡️ ¡Escudos de Seguridad y Rutas Inteligentes! (Security & Navigation!)
-Regresa a tu repo: https://github.com/Janky11/Janky11
-
-Navega a:
-sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/
-
-Crea un nuevo archivo llamado: staticwebapp.config.json
-
-Pega el siguiente contenido 🔒:
+json
+Copiar
+Editar
 {
   "globalHeaders": {
     "Content-Security-Policy": "default-src 'self'; img-src 'self' https://raw.githubusercontent.com https://pokeapi.co https://assets.pokemon.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://beta.pokeapi.co",
@@ -76,28 +93,28 @@ Pega el siguiente contenido 🔒:
     "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"]
   }
 }
-Guarda con Commit changes ✅
+🔁 Espera que se ejecute de nuevo el flujo en Actions
 
-Vuelve a Actions y espera a que finalice el despliegue 🎉
-
-###6️⃣ 🖼️ ¡Dando Vida a los Pokémon con Imágenes! (Loading Pokemon Images!) 🎨
-Ve a la ruta:
+🖼️ Paso 6: Visualiza tus Pokémon con Estilo
+Dirígete a:
 sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/src/environments/
 
-Abre y edita el archivo environment.prod.ts ✏️
+Edita el archivo environment.prod.ts
 
-Reemplaza esta línea:
+Reemplaza:
+
+ts
+Copiar
+Editar
 imagesPath: 'pokedex-angular/assets/images',
-###🔁 Por esta:
+🔁 Por:
+
+ts
+Copiar
+Editar
 imagesPath: '/assets/images',
-Guarda los cambios con Commit changes ✅
+✅ Realiza el commit y espera que el proceso se ejecute exitosamente.
 
-Verifica el workflow en Actions. ¡Tus Pokémon ya deberían tener cara! 😄
-
-###🎉 ¡Felicidades!
-Has desplegado tu Pokédex en Azure Static Web Apps como todo un experto en la nube.
-¡Atraparlos a todos ahora es digitalmente épico! 💾🔥
-
-###✨ Creador del Proyecto
-###🧑‍💻 Jean Carlos Orozco Imotila
-###Estudiante apasionado de Ingeniería de Sistemas - 9no semestre
+🧑‍🎓 Sobre el Autor
+Jean Carlos Orozco Imotila
+Noveno semestre de Ingeniería de Sistemas
