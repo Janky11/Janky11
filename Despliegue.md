@@ -1,4 +1,7 @@
-![Pokébola](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" width="300" />
+</p>
+
 
 
 <h1 align="center">🎮 PokeDeploy: Tu Pokédex en la Nube con Azure 🎮</h1>
