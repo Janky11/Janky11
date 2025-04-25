@@ -93,7 +93,19 @@ Y pega este contenido:
   },
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"]
+    "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"] 
+
+    
+## 🖼️ Paso 6: ¡Dando Vida a los Pokémon con Imágenes!
+
+Dirígete a esta ruta en tu repositorio: `albertacho/sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/src/environments/`
+
+Edita el archivo `environment.prod.ts` y busca la línea que define la ruta de las imágenes:
+
+```ts```
+imagesPath: 'pokedex-angular/assets/images',
+imagesPath: '/assets/images',
+
 
 ## 🎉 ¡Listo! Tu Pokédex Está en la Nube
 
