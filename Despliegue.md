@@ -84,7 +84,7 @@ Navega a: `sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/`
 Haz clic en **Add file > Create new file**  
 Nómbralo como: `staticwebapp.config.json`  
 Y pega este contenido:
-
+```json
 {
   "globalHeaders": {
     "Content-Security-Policy": "default-src 'self'; img-src 'self' https://raw.githubusercontent.com https://pokeapi.co https://assets.pokemon.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://beta.pokeapi.co",
@@ -93,9 +93,7 @@ Y pega este contenido:
   },
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"] ```json
-  }
-}
+    "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"]
 
 ## 🎉 ¡Listo! Tu Pokédex Está en la Nube
 
