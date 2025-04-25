@@ -1,8 +1,3 @@
-<!-- Encabezado visual -->
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzh2M2V0N2s5aWJmbDB0OTJpNXY3MWdzZG1jdGk5dThudm5sMGMwNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oEjI6SIIHBdRxXI40/giphy.gif" width="280px">
-</p>
-
 <h1 align="center">🎮 PokeDeploy: Tu Pokédex en la Nube con Azure 🎮</h1>
 
 <p align="center">
@@ -52,13 +47,7 @@ Accede al código fuente original:
 
 ```yml
 app_location: "./sistemas-distribuidos"
-🔁 Sustitúyela por:
 
-yml
-Copiar
-Editar
-app_location: "./sistemas-distribuidos/poke-dex-lab/source/pokedex-angular"
-✔️ Guarda tus cambios con un commit
 ---
 ## 🚦 Paso 3: Verifica la Acción de Despliegue
 
@@ -98,28 +87,3 @@ Y pega este contenido:
     "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"]
   }
 }
-
-
-🖼️ Paso 6: Visualiza tus Pokémon con Estilo
-Dirígete a:
-sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/src/environments/
-
-Edita el archivo environment.prod.ts
-
-Reemplaza:
-
-ts
-Copiar
-Editar
-imagesPath: 'pokedex-angular/assets/images',
-🔁 Por:
-
-ts
-Copiar
-Editar
-imagesPath: '/assets/images',
-✅ Realiza el commit y espera que el proceso se ejecute exitosamente.
-
-🧑‍🎓 Sobre el Autor
-Jean Carlos Orozco Imotila
-Noveno semestre de Ingeniería de Sistemas
