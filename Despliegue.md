@@ -25,7 +25,7 @@
 - 🌐 **Web App Activa:** [https://witty-island-0d4269f10.6.azurestaticapps.net](https://witty-island-0d4269f10.6.azurestaticapps.net)
 - 📘 **Repositorio de Trabajo:** [https://github.com/Janky11/Janky11](https://github.com/Janky11/Janky11)
 - 🧠 **Materia:** Sistemas Distribuidos
-- 🧑‍💻 **Autor:** Jean Carlos Orozco Imotila  
+- 🧑‍💻 **Autor:** Jean Carlos Orozco Imitola 
 - 🎓 **Semestre:** Noveno (Ingeniería de Sistemas)  
 - 🗓️ **Fecha de Publicación:** 20/04/2025  
 
@@ -104,6 +104,7 @@ Edita el archivo `environment.prod.ts` y busca la línea que define la ruta de l
 
 ```ts```
 imagesPath: 'pokedex-angular/assets/images',
+modificalo
 imagesPath: '/assets/images',
 
 
