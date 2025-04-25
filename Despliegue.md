@@ -27,7 +27,7 @@
 - 🧠 **Materia:** Sistemas Distribuidos
 - 🧑‍💻 **Autor:** Jean Carlos Orozco Imotila  
 - 🎓 **Semestre:** Noveno (Ingeniería de Sistemas)  
-- 🗓️ **Fecha de Publicación:** 13/04/2025  
+- 🗓️ **Fecha de Publicación:** 20/04/2025  
 
 ---
 
@@ -71,6 +71,25 @@ Haz clic en **Ir al recurso**, y luego verás un enlace URL con tu Pokédex func
 ---
 
 ## 🧩 Paso 5: Configura Seguridad y Navegación
+Desde tu repositorio: https://github.com/Janky11/Janky11  
+Navega a: `sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/`
+
+Haz clic en **Add file > Create new file**  
+Nómbralo como: `staticwebapp.config.json`  
+Y pega este contenido:
+
+```json
+{
+  "globalHeaders": {
+    "Content-Security-Policy": "default-src 'self'; img-src 'self' https://raw.githubusercontent.com https://pokeapi.co https://assets.pokemon.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://beta.pokeapi.co",
+    "X-Frame-Options": "DENY",
+    "Permissions-Policy": "geolocation=(), microphone=(), camera=()"
+  },
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"]
+  }
+}
 
 
 ## 🎉 ¡Listo! Tu Pokédex Está en la Nube
@@ -85,17 +104,15 @@ Tu Pokédex ya está activa en la web, lista para explorar, lucir increíble y c
 🧙‍♂️ **Jean Carlos Orozco Imotila**  
 _"Estudiante Apasionado de Ingeniería de Sistemas"_  
 
-🔗 [GitHub](https://github.com/Janky11/Janky11) | [LinkedIn](#) | [Portafolio](#)
+🔗 [GitHub](https://github.com/Janky11/Janky11) | 
 
 🏆 **Habilidades Especiales:**
-- 🛠️ **Auxiliar Multifuncional**: Apoyo en Sistemas, IT y TIC.
 - 💻 **Desarrollo de Software**: Full Stack Developer (front-end + back-end).
 - 🔐 **Ciberseguridad**: Protección de datos y redes.
 - 🖥️ **Mantenimiento de Computadores**: Diagnóstico y reparación de equipos.
 - 🎨 **Herramientas Digitales**: Excel, Photoshop.
-- ⚕️ **SG-SST (50 Horas)**: Formación en seguridad laboral.
-- 📢 **Marketing Digital**: Estrategias en SEO y redes sociales.
 
-📅 **Fecha de Creación del Proyecto**: 13/04/2025
+
+📅 **Fecha de Creación del Proyecto**: 20/04/2025
 }
 
