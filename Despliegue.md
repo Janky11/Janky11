@@ -35,10 +35,10 @@ Ve directo al corazón del código Pokédex:
 
 ```yml
 app_location: "./sistemas-distribuidos"
-###🔁 ¡Cámbiala por esta ruta mágica! ✨
+🔁 ¡Cámbiala por esta ruta mágica! ✨
 app_location: "./sistemas-distribuidos/poke-dex-lab/source/pokedex-angular"
 
-###3️⃣ 🎬 ¡Luces, Cámara, Actions! (Checking the Magic!)
+##3️⃣ 🎬 ¡Luces, Cámara, Actions! (Checking the Magic!)
 Haz clic en la pestaña Actions en tu repositorio
 
 Verifica que el workflow se esté ejecutando con éxito 🚦
