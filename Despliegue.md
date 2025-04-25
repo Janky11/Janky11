@@ -89,10 +89,9 @@ Y pega este contenido:
   "navigationFallback": {
     "rewrite": "/index.html",
     "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"]
-  }
-}
+  
 
----
+
 
 ## 🎉 ¡Listo! Tu Pokédex Está en la Nube
 
@@ -118,3 +117,5 @@ _"Estudiante Apasionado de Ingeniería de Sistemas"_
 - 📢 **Marketing Digital**: Estrategias en SEO y redes sociales.
 
 📅 **Fecha de Creación del Proyecto**: 13/04/2025
+}
+
