@@ -117,7 +117,7 @@ Tu Pokédex ya está activa en la web, lista para explorar, lucir increíble y c
 
 ## 🌟 Creador del Proyecto 🙌
 
-🧙‍♂️ **Jean Carlos Orozco Imotila**  
+🧙‍♂️ **Jean Carlos Orozco Imitola**  
 _"Estudiante Apasionado de Ingeniería de Sistemas"_  
 
 🔗 [GitHub](https://github.com/Janky11/Janky11) | 
