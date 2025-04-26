@@ -71,14 +71,13 @@ Llena el formulario con los siguientes datos:
 
 ## ⚠️ Posibles Problemas y Soluciones
 
-| Error                           | Solución                                                                 |
-|--------------------------------|--------------------------------------------------------------------------|
-| "Correo no reconocido"         | Contacta al departamento de TI de tu universidad.                        |
-| "No llega el código"           | Revisa la carpeta SPAM o solicita un reenvío.                            |
-| "Institución no válida"        | Usa documentos estudiantiles para verificación manual.                   |
-| "Cuenta ya registrada, sin créditos" | Regístrate en el programa Azure Starter, que te permite activar créditos adicionales. |
+ Error                            Solución                                                                 
 
-🔗 Link para Azure Starter: [https://azure.microsoft.com/free](https://azure.microsoft.com/free)
+ "Correo no reconocido"          Contacta al departamento de TI de tu universidad.                        
+ "No llega el código"            Revisa la carpeta SPAM o solicita un reenvío.                            
+ "Institución no válida"         Usa documentos estudiantiles para verificación manual.                   
+ 
+
 
 ---
 
